@@ -1,7 +1,7 @@
 package by.ld.hw.classes.task7.bean;
 
 public class Triangle {
-    Vertex a;
+    Vertex a;// куда исчезли атрибуты доступа? equals, hashCode?
     Vertex b;
     Vertex c;
 

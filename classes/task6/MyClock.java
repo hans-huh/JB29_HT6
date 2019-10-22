@@ -20,7 +20,8 @@ public class MyClock {
     }
 
     // Getting string of HH:MM:SS format
-    public MyClock(String str){
+    public MyClock(String str){// парсеры отдельно, время отдельно
+        // почему вы вдруг решили, что данный конструктор должен принимать String?
         int tempHours;
         int tempMinutes;
         int tempSeconds;

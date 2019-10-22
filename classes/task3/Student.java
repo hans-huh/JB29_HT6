@@ -12,6 +12,7 @@ public class Student {
     private int groupNumber;
     private int[] academicPerformance;
 
+    //излишне много параметров в конструкторе, лучше так не делать
     public Student(String lastName, String initials, int groupNumber, int gradeA, int gradeB, int gradeC, int gradeD, int gradeF){
         this.lastName = lastName;
         this.initials = initials;
@@ -59,4 +60,6 @@ public class Student {
     public void setAcademicPerformance(int[] academicPerformance) {
         this.academicPerformance = academicPerformance;
     }
+    
+    //equals? hashCode?
 }

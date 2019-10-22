@@ -28,7 +28,8 @@ public class Main {
 
     }
 
-
+// на занятии мы разбирали как отделить данные от логики и от ввода-вывода и почему это нужно делать
+    // почему-то вы не переписали реализацию
     public static void printStudentPerSample(Student[] students){
         int[] performance;
         boolean matchCondition;
