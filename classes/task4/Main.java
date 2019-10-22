@@ -81,7 +81,7 @@ public class Main {
         }
     }
 
-
+// ошибка аналогичная предыдущему таску
     public static void descendingSortByTrainNumber(Train[] trains){
         int n;
         Train temp;
