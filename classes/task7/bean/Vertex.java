@@ -1,7 +1,7 @@
 package by.ld.hw.classes.task7.bean;
 
 public class Vertex {
-    int x;
+    int x;// атрибуты доступа, equals, hashCode
     int y;
 
     public Vertex(int x, int y){
