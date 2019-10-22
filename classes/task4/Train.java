@@ -9,7 +9,7 @@ package by.ld.hw.classes.task4;
  */
 
 public class Train {
-
+// equals, hashCode?
     private String destination;
     private int trainNumber;
     private int departureTime; // time in seconds
